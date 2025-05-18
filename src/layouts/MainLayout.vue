@@ -9,7 +9,7 @@
           </q-toolbar-title>
         </div>
 
-        <div class="language-switcher items-center q-gutter-sm q-mr-md">
+        <div class="language-switcher items-center flex q-gutter-sm q-mr-md">
           <span class="language-label">{{ $t('language') }}</span>
 
           <q-btn
