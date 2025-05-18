@@ -1,13 +1,15 @@
 <template>
   <q-layout view="lHh Lpr lFf" class="layout-dark">
     <q-header elevated class="header-glass">
-      <q-toolbar class="q-pa-sm">
-        <q-toolbar-title class="title" @click="animateLightning">
-          <span class="lightning" :class="{ active: isActive }">⚡</span>
-          <span class="letter-r"> Rick and Morty </span>
-        </q-toolbar-title>
+      <div class="row items-center q-gutter-sm q-mb-md q-mt-sx">
+        <div>
+          <q-toolbar-title class="title" @click="animateLightning">
+            <span class="lightning" :class="{ active: isActive }">⚡</span>
+            <span class="letter-r"> Rick and Morty </span>
+          </q-toolbar-title>
+        </div>
 
-        <div class="language-switcher row items-center q-gutter-sm">
+        <div class="language-switcher items-center q-gutter-sm q-mr-md">
           <span class="language-label">{{ $t('language') }}</span>
 
           <q-btn
@@ -32,7 +34,7 @@
             aria-label="English"
           />
         </div>
-      </q-toolbar>
+      </div>
     </q-header>
 
     <q-page-container class="page-bg">

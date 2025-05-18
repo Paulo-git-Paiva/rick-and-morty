@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-md bg-dark text-white">
-    <div class="self-start q-mb-md">
+    <div class="self-center q-mb-md">
       <q-btn
         :label="t('returnToCharacterSelection')"
         color="cyan"

@@ -27,7 +27,7 @@
         <q-card
           v-for="char in characters"
           :key="char.id"
-          class="col-xs-6 col-sm-6 col-md-3 col-lg-2 glass-card"
+          class="col-xs-12 col-sm-6 col-md-3 col-lg-2 glass-card"
           flat
           bordered
           clickable
